@@ -1,0 +1,13 @@
+{
+  "name": "dupefinder",
+  "version": "1.0.0",
+  "description": "Recursive duplicate-file finder using content hashing (MD5/SHA-1/SHA-256), with dry-run safe delete.",
+  "type": "module",
+  "bin": {
+    "dupefinder": "./bin/dupefinder.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
